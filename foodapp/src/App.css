@@ -1,0 +1,116 @@
+* {
+  background-color: rgb(247, 243, 240);
+  margin: 0;
+}
+
+#title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: rgb(247, 243, 240);
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(115 141 133);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  h1 {
+    background-color: transparent;
+  }
+}
+
+#food-recipe {
+
+  #food-next {
+    width: 322px;
+    margin-top: 15px;
+    background-color: rgb(115, 196, 45);
+    border-color: rgb(190, 250, 135);
+    box-shadow: 5px 10px rgba(51, 105, 1, 0.63);
+  }
+
+  #food-next:hover {
+    background-color: rgb(190, 250, 135);
+    color: rgba(51, 105, 1, 0.801);
+    ;
+  }
+
+  #food-part {
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    #food-card {
+      box-shadow: 5px 10px rgb(136, 117, 92);
+    }
+
+    #food-image {
+      padding: 10px;
+      border-radius: 1rem;
+      cursor: pointer;
+      transition: transform .3s;
+    }
+
+    #food-image:hover {
+      transform: scale(1.1);
+      padding: 0;
+    }
+
+    #card-title {
+      color: rgb(71, 146, 0);
+      text-transform: uppercase;
+    }
+
+    #food-list {
+      color: rgb(71, 146, 0);
+    }
+  }
+
+  #ingredient-part {
+    background-color: rgb(186, 209, 167);
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+    h1 {
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    #list-ingredient {
+      box-shadow: 5px 10px rgba(51, 105, 1, 0.801);
+      width: 300px;
+
+    }
+
+    #ingredient-item {
+      color: rgb(39, 80, 2);
+    }
+  }
+
+  #instruction-part {
+    background-color: rgb(169, 208, 209);
+    padding: 20px;
+    margin-bottom: 20px;
+
+    h1 {
+      background-color: transparent;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    #food-instruction {
+      background-color: #fff;
+      color: rgb(39, 80, 2);
+      padding: 15px;
+      box-shadow: 5px 10px rgb(70, 88, 88);
+      margin-top: 20px;
+      border-radius: 1rem;
+    }
+  }
+}
